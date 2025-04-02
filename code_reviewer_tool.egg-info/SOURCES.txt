@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+license
+pyproject.toml
+setup.py
+code_reviewer_tool.egg-info/PKG-INFO
+code_reviewer_tool.egg-info/SOURCES.txt
+code_reviewer_tool.egg-info/dependency_links.txt
+code_reviewer_tool.egg-info/entry_points.txt
+code_reviewer_tool.egg-info/requires.txt
+code_reviewer_tool.egg-info/top_level.txt

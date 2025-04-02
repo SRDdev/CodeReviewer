@@ -1,0 +1,2 @@
+[console_scripts]
+code-reviewer = code_reviewer.main:main

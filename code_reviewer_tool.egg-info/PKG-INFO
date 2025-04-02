@@ -1,3 +1,32 @@
+Metadata-Version: 2.4
+Name: code-reviewer-tool
+Version: 0.1.0
+Summary: A tool for code review and documentation generation
+Home-page: https://github.com/SRDdev/CodeReviewer
+Author: Shreyas
+Author-email: shreyasrd31@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license
+Requires-Dist: astroid
+Requires-Dist: pylint
+Requires-Dist: sphinx
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: docutils
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # Code Reviewer: Your AI-Powered Code Polishing Assistant
 
 This project is designed to be your personal AI-powered code reviewer, helping you clean, refine, and improve your code quality as you develop. It leverages AI to provide suggestions, identify potential issues, and ensure code adheres to best practices.
