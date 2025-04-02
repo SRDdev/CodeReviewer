@@ -1,0 +1,12 @@
+2025-04-03 02:20:20,068 - INFO - Found 3 code files to analyze
+2025-04-03 02:20:20,071 - INFO - Analyzing main.py
+2025-04-03 02:20:20,071 - INFO - Analyzing routers\router.py
+2025-04-03 02:20:20,071 - INFO - Analyzing routers\__init__.py
+2025-04-03 02:20:20,074 - INFO - Report for main.py written to docs/codereview\main.py_report.txt
+2025-04-03 02:20:20,075 - INFO - Report for routers\router.py written to docs/codereview\routers\router.py_report.txt
+2025-04-03 02:20:20,075 - INFO - Report for routers\__init__.py written to docs/codereview\routers\__init__.py_report.txt
+2025-04-03 02:20:20,076 - INFO - Found 3 code files to analyze
+2025-04-03 02:20:20,076 - INFO - Summary report written to docs/codereview\summary_report.txt
+2025-04-03 02:20:20,077 - INFO - Found 3 code files to analyze
+2025-04-03 02:20:20,077 - INFO - Final report written to docs/codereview\final_report.md
+2025-04-03 02:20:20,078 - INFO - Analysis data written to docs/codereview\analysis_data.json

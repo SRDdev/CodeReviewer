@@ -1,0 +1,29 @@
+Code Quality Analysis Summary Report
+================================================================================
+
+Total files analyzed: 3
+Files with issues: 3
+Total issues found: 13
+
+Issues by severity:
+--------------------------------------------------------------------------------
+INFO: 13
+
+Issues by type:
+--------------------------------------------------------------------------------
+UNUSED_IMPORT: 9
+MISSING_DOCSTRING: 4
+
+Files with most issues:
+--------------------------------------------------------------------------------
+routers\router.py: 8 issues
+main.py: 3 issues
+routers\__init__.py: 2 issues
+
+File Ratings:
+--------------------------------------------------------------------------------
+File                                     Grade Overall  Error    Maint.   Scale.   Security
+--------------------------------------------------------------------------------
+routers\__init__.py                      A+    9.8      10.0     9.3      10.0     10.0    
+main.py                                  A+    9.6      10.0     9.0      10.0     10.0    
+routers\router.py                        A+    9.0      10.0     7.3      10.0     10.0    

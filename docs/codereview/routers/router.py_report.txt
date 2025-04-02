@@ -1,0 +1,14 @@
+Code Quality Report for routers\router.py
+================================================================================
+
+INFO issues (8):
+--------------------------------------------------------------------------------
+Line 1: MISSING_DOCSTRING - Module 'module' is missing a docstring
+Line 7: MISSING_DOCSTRING - Class 'Item' is missing a docstring
+Line 1: UNUSED_IMPORT - Import 'fastapi.APIRouter' might be unused
+Line 1: UNUSED_IMPORT - Import 'fastapi.Query' might be unused
+Line 1: UNUSED_IMPORT - Import 'fastapi.HTTPException' might be unused
+Line 2: UNUSED_IMPORT - Import 'pydantic.BaseModel' might be unused
+Line 3: UNUSED_IMPORT - Import 'typing.Optional' might be unused
+Line 3: UNUSED_IMPORT - Import 'typing.List' might be unused
+

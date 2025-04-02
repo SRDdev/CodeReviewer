@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "total_files": 3,
+    "files_with_issues": 3,
+    "total_issues": 13,
+    "average_scores": {
+      "overall": 9.466666666666667,
+      "error_handling": 10.0,
+      "maintainability": 8.533333333333333,
+      "scalability": 10.0,
+      "security": 10.0,
+      "grade": "A+"
+    },
+    "severity_counts": {
+      "INFO": 13
+    },
+    "issue_types": {
+      "MISSING_DOCSTRING": 4,
+      "UNUSED_IMPORT": 9
+    }
+  },
+  "file_ratings": {
+    "C:\\Users\\ASUS\\Desktop\\Code_Reviewer\\codebase\\main.py": {
+      "error_handling_score": 10,
+      "maintainability_score": 9.0,
+      "scalability_score": 10,
+      "security_score": 10,
+      "overall_score": 9.6,
+      "grade": "A+"
+    },
+    "C:\\Users\\ASUS\\Desktop\\Code_Reviewer\\codebase\\routers\\router.py": {
+      "error_handling_score": 10,
+      "maintainability_score": 7.3,
+      "scalability_score": 10,
+      "security_score": 10,
+      "overall_score": 9.0,
+      "grade": "A+"
+    },
+    "C:\\Users\\ASUS\\Desktop\\Code_Reviewer\\codebase\\routers\\__init__.py": {
+      "error_handling_score": 10,
+      "maintainability_score": 9.3,
+      "scalability_score": 10,
+      "security_score": 10,
+      "overall_score": 9.8,
+      "grade": "A+"
+    }
+  },
+  "file_metrics": {
+    "C:\\Users\\ASUS\\Desktop\\Code_Reviewer\\codebase\\main.py": {
+      "lines_of_code": 6,
+      "issue_counts": {
+        "MISSING_DOCSTRING": 1,
+        "UNUSED_IMPORT": 2
+      },
+      "severity_counts": {
+        "INFO": 3
+      },
+      "complexity_score": 0,
+      "maintainability_score": 0,
+      "scalability_score": 0,
+      "security_score": 0,
+      "error_handling_score": 0,
+      "avg_func_complexity": 0,
+      "max_func_complexity": 0,
+      "functions_count": 0,
+      "classes_count": 0
+    },
+    "C:\\Users\\ASUS\\Desktop\\Code_Reviewer\\codebase\\routers\\router.py": {
+      "lines_of_code": 71,
+      "issue_counts": {
+        "MISSING_DOCSTRING": 2,
+        "UNUSED_IMPORT": 6
+      },
+      "severity_counts": {
+        "INFO": 8
+      },
+      "complexity_score": 1,
+      "maintainability_score": 0,
+      "scalability_score": 0,
+      "security_score": 0,
+      "error_handling_score": 0,
+      "avg_func_complexity": 0,
+      "max_func_complexity": 0,
+      "functions_count": 0,
+      "classes_count": 1
+    },
+    "C:\\Users\\ASUS\\Desktop\\Code_Reviewer\\codebase\\routers\\__init__.py": {
+      "lines_of_code": 2,
+      "issue_counts": {
+        "MISSING_DOCSTRING": 1,
+        "UNUSED_IMPORT": 1
+      },
+      "severity_counts": {
+        "INFO": 2
+      },
+      "complexity_score": 0,
+      "maintainability_score": 0,
+      "scalability_score": 0,
+      "security_score": 0,
+      "error_handling_score": 0,
+      "avg_func_complexity": 0,
+      "max_func_complexity": 0,
+      "functions_count": 0,
+      "classes_count": 0
+    }
+  }
+}

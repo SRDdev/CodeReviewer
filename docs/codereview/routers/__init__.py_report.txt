@@ -1,0 +1,8 @@
+Code Quality Report for routers\__init__.py
+================================================================================
+
+INFO issues (2):
+--------------------------------------------------------------------------------
+Line 1: MISSING_DOCSTRING - Module 'module' is missing a docstring
+Line 1: UNUSED_IMPORT - Import 'router.router' might be unused
+

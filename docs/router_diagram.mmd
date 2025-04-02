@@ -1,0 +1,52 @@
+graph LR
+  %% Define styles for different elements
+  classDef model fill:#e1d5e7,stroke:#9673a6,stroke-width:2px;
+  classDef endpoint fill:#dae8fc,stroke:#6c8ebf,stroke-width:2px;
+  classDef get fill:#d5e8d4,stroke:#82b366,stroke-width:2px;
+  classDef post fill:#ffe6cc,stroke:#d79b00,stroke-width:2px;
+  classDef put fill:#fff2cc,stroke:#d6b656,stroke-width:2px;
+  classDef delete fill:#f8cecc,stroke:#b85450,stroke-width:2px;
+  classDef field fill:#f5f5f5,stroke:#666666,stroke-width:1px;
+  classDef request fill:#e1f5fe,stroke:#4fc3f7,stroke-width:1px;
+  classDef response fill:#e8f5e9,stroke:#66bb6a,stroke-width:1px;
+
+  subgraph API API
+    direction TB
+    Item["Item"]:::model
+    Item_name("name: str"):::field
+    Item --> Item_name
+    Item_description("description: Optional[str]"):::field
+    Item --> Item_description
+    Item_price("price: float"):::field
+    Item --> Item_price
+    Item_tax("tax: Optional[float]"):::field
+    Item --> Item_tax
+    read_items["GET /api/items/"]:::get
+    read_items_res("List"):::response
+    read_items --> read_items_res
+    create_item["POST /api/items/"]:::post
+    create_item_req("Item"):::request
+    create_item_req --> create_item
+    create_item_res("Item"):::response
+    create_item --> create_item_res
+    read_item["GET /api/items/{item_id}"]:::get
+    read_item_res("Item"):::response
+    read_item --> read_item_res
+    update_item["PUT /api/items/{item_id}"]:::put
+    update_item_req("Item"):::request
+    update_item_req --> update_item
+    update_item_res("Item"):::response
+    update_item --> update_item_res
+    delete_item["DELETE /api/items/{item_id}"]:::delete
+  end
+
+  subgraph Legend
+    model_ex["Model"]:::model
+    field_ex("Field"):::field
+    get_ex["GET"]:::get
+    post_ex["POST"]:::post
+    put_ex["PUT"]:::put
+    delete_ex["DELETE"]:::delete
+    req_ex("Request"):::request
+    res_ex("Response"):::response
+  end

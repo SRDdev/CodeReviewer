@@ -1,0 +1,9 @@
+Code Quality Report for main.py
+================================================================================
+
+INFO issues (3):
+--------------------------------------------------------------------------------
+Line 1: MISSING_DOCSTRING - Module 'module' is missing a docstring
+Line 1: UNUSED_IMPORT - Import 'fastapi.FastAPI' might be unused
+Line 2: UNUSED_IMPORT - Import 'codebase.router' might be unused
+

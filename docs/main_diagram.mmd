@@ -1,0 +1,26 @@
+graph LR
+  %% Define styles for different elements
+  classDef model fill:#e1d5e7,stroke:#9673a6,stroke-width:2px;
+  classDef endpoint fill:#dae8fc,stroke:#6c8ebf,stroke-width:2px;
+  classDef get fill:#d5e8d4,stroke:#82b366,stroke-width:2px;
+  classDef post fill:#ffe6cc,stroke:#d79b00,stroke-width:2px;
+  classDef put fill:#fff2cc,stroke:#d6b656,stroke-width:2px;
+  classDef delete fill:#f8cecc,stroke:#b85450,stroke-width:2px;
+  classDef field fill:#f5f5f5,stroke:#666666,stroke-width:1px;
+  classDef request fill:#e1f5fe,stroke:#4fc3f7,stroke-width:1px;
+  classDef response fill:#e8f5e9,stroke:#66bb6a,stroke-width:1px;
+
+  subgraph API API
+    direction TB
+  end
+
+  subgraph Legend
+    model_ex["Model"]:::model
+    field_ex("Field"):::field
+    get_ex["GET"]:::get
+    post_ex["POST"]:::post
+    put_ex["PUT"]:::put
+    delete_ex["DELETE"]:::delete
+    req_ex("Request"):::request
+    res_ex("Response"):::response
+  end

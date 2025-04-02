@@ -1,0 +1,91 @@
+{
+  "endpoints": {
+    "C:\\Users\\ASUS\\Desktop\\Code_Reviewer\\codebase\\routers\\router.py": [
+      {
+        "method": "GET",
+        "path": "/api/items/",
+        "function": "read_items",
+        "docstring": "Retrieve a list of items.  - `q`: Optional query parameter to filter items by name.",
+        "tags": [
+          "examples"
+        ],
+        "request_model": null,
+        "response_model": "List",
+        "source_file": "routers\\router.py"
+      },
+      {
+        "method": "POST",
+        "path": "/api/items/",
+        "function": "create_item",
+        "docstring": "Create a new item.  - `item`: The item to create.",
+        "tags": [
+          "examples"
+        ],
+        "request_model": "Item",
+        "response_model": "Item",
+        "source_file": "routers\\router.py"
+      },
+      {
+        "method": "GET",
+        "path": "/api/items/{item_id}",
+        "function": "read_item",
+        "docstring": "Retrieve an item by its ID.  - `item_id`: The ID of the item to retrieve.",
+        "tags": [
+          "examples"
+        ],
+        "request_model": null,
+        "response_model": "Item",
+        "source_file": "routers\\router.py"
+      },
+      {
+        "method": "PUT",
+        "path": "/api/items/{item_id}",
+        "function": "update_item",
+        "docstring": "Update an item by its ID.  - `item_id`: The ID of the item to update. - `item`: The updated item data.",
+        "tags": [
+          "examples"
+        ],
+        "request_model": "Item",
+        "response_model": "Item",
+        "source_file": "routers\\router.py"
+      },
+      {
+        "method": "DELETE",
+        "path": "/api/items/{item_id}",
+        "function": "delete_item",
+        "docstring": "Delete an item by its ID.  - `item_id`: The ID of the item to delete.",
+        "tags": [
+          "examples"
+        ],
+        "request_model": null,
+        "response_model": null,
+        "source_file": "routers\\router.py"
+      }
+    ]
+  },
+  "models": {
+    "C:\\Users\\ASUS\\Desktop\\Code_Reviewer\\codebase\\routers\\router.py": {
+      "Item": {
+        "fields": {
+          "name": {
+            "type": "str",
+            "default": null
+          },
+          "description": {
+            "type": "Optional[str]",
+            "default": "None"
+          },
+          "price": {
+            "type": "float",
+            "default": null
+          },
+          "tax": {
+            "type": "Optional[float]",
+            "default": "None"
+          }
+        },
+        "docstring": ""
+      }
+    }
+  }
+}
